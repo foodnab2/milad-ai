@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">MILAD AI</title>
+  <desc id="desc">نشان نئونی M/Ai با مدارهای کیهانی</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#201535"/><stop offset=".55" stop-color="#0c1022"/><stop offset="1" stop-color="#080b17"/></linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe6a6"/><stop offset=".42" stop-color="#63e7ff"/><stop offset=".76" stop-color="#9b88ff"/><stop offset="1" stop-color="#f58bff"/></linearGradient>
+    <linearGradient id="letters" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ffe5a0"/><stop offset=".5" stop-color="#7cecff"/><stop offset="1" stop-color="#eee7ff"/></linearGradient>
+    <filter id="glow" x="-60%" y="-80%" width="220%" height="260%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="7" result="blur"/><feFlood flood-color="#8deaff" flood-opacity=".65" result="tint"/><feComposite in="tint" in2="blur" operator="in" result="halo"/><feMerge><feMergeNode in="halo"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="10" y="10" width="492" height="492" rx="118" fill="url(#bg)"/>
+  <rect x="14" y="14" width="484" height="484" rx="114" fill="none" stroke="url(#neon)" stroke-opacity=".8" stroke-width="4"/>
+  <circle cx="256" cy="252" r="184" fill="none" stroke="#a68cff" stroke-opacity=".1" stroke-width="2"/>
+  <g transform="translate(48 192) scale(1.38)">
+    <ellipse cx="150" cy="65" rx="132" ry="42" transform="rotate(-15 150 65)" fill="none" stroke="url(#neon)" stroke-opacity=".9" stroke-width="2.5" filter="url(#soft)"/>
+    <ellipse cx="150" cy="65" rx="121" ry="29" transform="rotate(17 150 65)" fill="none" stroke="#84eaff" stroke-opacity=".4" stroke-width="1.2" stroke-dasharray="2 8"/>
+    <path d="M39 105 57 43l27 43 27-43 19 62" fill="none" stroke="url(#letters)" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" filter="url(#glow)"/>
+    <path d="m151 35-22 75" fill="none" stroke="url(#neon)" stroke-linecap="round" stroke-width="7" filter="url(#glow)"/>
+    <text x="160" y="106" fill="url(#letters)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="-5" filter="url(#glow)">Ai</text>
+    <circle cx="270" cy="31" r="4.2" fill="#f7f5ff" filter="url(#glow)"/>
+    <circle cx="27" cy="93" r="3.4" fill="#68eaff" filter="url(#soft)"/>
+  </g>
+  <circle cx="413" cy="107" r="6" fill="#ffe7a7" filter="url(#glow)"/>
+</svg>
